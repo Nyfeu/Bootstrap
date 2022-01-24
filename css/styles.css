@@ -1,0 +1,281 @@
+
+/* Defines color */
+
+  /*  #ef8172 color  */
+
+    hr, #testimonials, #press {
+      background-color: #ef8172;
+    }
+
+    .icon-red {
+      color: #ef8172;
+    }
+
+  /*  #ff4c68 color  */
+
+    .bg-color-red {
+      background-color: #ff4c68;
+    }
+
+    .icon-red:hover {
+      color: #ff4c68;
+    }
+
+  /* Defines Font-Families */
+
+    /* Montserrat */
+
+      #title, #features, #pricing, h2, body {
+        font-family: 'Montserrat', sans-serif;
+      }
+
+    /* Ubuntu */
+
+      .navbar-brand {
+        font-family: 'Ubuntu', sans-serif;
+      }
+
+  /* align - center */
+
+    #testimonials, #press, .card, .pricing-text  {
+      text-align: center;
+    }
+
+  /* Section IDs */
+
+    #features {
+      padding: 15% 0 15% 0;
+    }
+
+    #testimonials {
+      padding: 7% 15%;
+      color: white;
+    }
+
+    #press {
+      padding-bottom: 7%;
+    }
+
+    #pricing {
+      padding: 7% 0 7% 0;
+    }
+
+    #cta {
+      text-align: center;
+      padding-top: 7%;
+    }
+
+    #footer {
+      margin: 0;
+      padding: 2% 0 2% 0;
+    }
+
+  /* Section title */
+
+    .top-content .row .col-lg {
+      text-align: center;
+      padding-top: 5%;
+    }
+
+  /* Section features */
+
+    #features .row {
+      text-align: center;
+    }
+
+  /* Section pricing */
+
+    #pricing .pricing-text h2 {
+      color: #d9534f;
+    }
+
+  /* Section CTA */
+
+    #cta h3 {
+      color: #fff;
+    }
+
+  /* Cutting iPhone image */
+
+    .container {
+      overflow: hidden;
+    }
+
+  /* Classes */
+
+    .icons {
+      color: #8f8f8f;
+      text-align: center;
+      margin-top: 5%;
+    }
+
+    .copyright {
+      margin: 0 0 3% 0;
+      text-align:center;
+      color: #8f8f8f;
+    }
+
+    .press-small-container {
+      height: 15.624rem;
+    }
+
+    .margin-col-pri {
+      margin-bottom: 5%;
+    }
+
+    .feature-p {
+      color: #8f8f8f;
+    }
+
+    .icon-red {
+      font-size: 6rem;
+      margin: 8% auto 8% auto;
+    }
+
+    .text1 {
+      padding: 5% 2.5rem 2% 2.5rem;
+    }
+
+    .navbar {
+      padding-left: 2%;
+    }
+
+    .navbar-brand {
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+
+    .navbar-toggler {
+      margin-right: 2.5%;
+    }
+
+    .testimonial-image {
+      width: 10%;
+      border-radius: 100%;
+      margin: 5%;
+      border-style: solid;
+    }
+
+    .press-images {
+      width: 15%;
+      margin: 2%;
+    }
+
+    .carousel-control-prev-icon {
+        position: absolute;
+        left: -80%;
+    }
+
+    .carousel-control-next-icon {
+        position: absolute;
+        right: -80%;
+    }
+
+    .card {
+      height: 100%;
+    }
+
+    .card-header {
+      padding-top: 5%;
+    }
+
+    .pricing-text {
+      margin-bottom: 7%;
+    }
+
+    .price {
+      color: #d9534f;
+    }
+
+  /* Elements */
+
+    h1 {
+      font-size: 3rem;
+      line-height: 1.5;
+      color: #fff;
+      margin-bottom: 5%;
+    }
+
+    h2 {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+
+    button {
+      margin: 5% auto 5% auto;
+    }
+
+    hr {
+      margin-top: 15%;
+      border-top: .250rem dashed white;
+      width: 100%;
+    }
+
+  /* Responsive code */
+
+    .phone {
+      width: 55%;
+      margin-left: auto;
+      margin-right: auto;
+      transform: rotate(25deg);
+    }
+
+    .press-small {
+      display: none;
+    }
+
+    .press-large {
+      display: block;
+    }
+
+    /* media queries */
+
+    /* rotate iphone */
+
+      @media (min-width: 993px) {
+
+        .phone {
+          transform: rotate(25deg);
+        }
+
+      }
+
+    /* disrotate iphone, text align, resizing and toggle carousel  */
+
+      @media (max-width: 992px) {
+
+        .text1 {
+          text-align: center;
+        }
+
+        .phone {
+          transform: rotate(0);
+        }
+
+        .press-large {
+          display: none;
+        }
+
+        .press-small {
+          display: block;
+        }
+
+        .press-images {
+          width: 50%;
+        }
+
+      }
+
+      /* Top content align */
+
+        @media (min-width: 760px) and (max-width: 992px){
+          .top-content {
+            height: 80rem;
+          }
+        }
+
+        @media (max-width: 759px) {
+          .top-content {
+            height: 65rem;
+          }
+        }
